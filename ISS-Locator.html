@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ISS Locator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap" rel="stylesheet">
+  <!--  Fonts  -->
+  <!--Mapbox-->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
+  <!-- Mapbox -->
+  <!-- Stylesheet -->
+  <!-- Stylesheet -->
+</head>
+<body>
+<nav style="padding: 20px;" class="footer-bg">
+  <p style="margin: 0;" class="header-text">ISS Locator</p>
+</nav>
+<div class="overall-container">
+  <div class="container-info order-2-mobile">
+    <section>
+      <h2 class="font-title-info">What is the International Space station(ISS)?</h2>
+      <div class="iss-image-container">
+        <a href="https://www.nasa.gov/feature/facts-and-figures" target="_blank"><img src="images/ISS.png" alt="ISS Satellite"></a>
+      </div>
+      <p class="font-para-info">The ISS, is  a vast spacecraft and space station, that orbits the Earth at about 250 miles. It acts as a distinctive laboratory for scientific research, fostering international collaboration and space technology progress. Scientists from various space agencies conduct experiments, allowing advances in numerous scientific fields. </p>
+    </section>
+    <hr class="line">
+    <section>
+      <h2 class="font-title-info">What...It's a space station?</h2>
+      <p class="font-para-info">Yes, the ISS is a space station. There are currently only two space stations in orbit, the ISS and <span><a href="https://www.nytimes.com/interactive/2021/science/tiangong-space-station.html" class="font-para-info">China’s Tiangong Space Station (TSS)</a></span>. The ISS has a bigger module count,  16 modules, compared to the TSS with only 3 modules. As a result, the ISS can accommodate up to 13 astronauts, while the TSS can accommodate 3. Their purpose is similar, focusing on testing and studying long-duration missions alongside scientific research.</p>
+    </section>
+    <hr class="line">
+    <section>
+      <h2 class="font-title-info">Fun Facts:</h2>
+      <ol class="font-para-info">
+        <li>In just one day, the space station covers a distance equivalent to a round trip to the Moon.</li>
+        <li>The International Space Station (ISS) stands as the most massive human-made structure ever launched into space.</li>
+        <li>The ISS has had to change its orbit/position to evade space debris, ensuring a safe journey among the stars.</li>
+        <li>Mark Vande Hei's extraordinary ISS mission lasted 355 days, breaking the previous record of 340 days set by Scott Kelly on March 1, 2016.</li>
+        <li>NASA announced that the space station's operations will end in 2030, and it will eventually fall into the Pacific Ocean.</li>
+      </ol>
+    </section>
+    <hr class="line">
+  </div>
+  <div class="container-map order-1-mobile">
+    <section>
+      <h2 class="font-title-info">Where is the ISS?</h2>
+      <p class="coordinates font-para-info"></p>
+      <div class="iss-map-container">
+        <div id="map"></div>
+      </div>
+    </section>
+    <hr class="line">
+  </div>
+</div>
+<footer style="padding: 20px; text-align: center;" class="footer-bg">
+  <p style="margin: 0;" ><span><a href="https://danielapsalas.github.io/daniela-picon-salas-portfolio/" target="_blank" class="footer-text">Created by Daniela Picon Salas</a></span></p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="mapboxkeys.js"></script>
+<script src="ISSApi.js"></script>
+</body>
+</html>
