@@ -115,7 +115,7 @@ h2{
     .overall-container{
         flex-direction: column; /* Stack elements vertically on mobile */
         padding: 8%;
-        margin: 3% 5%;
+        margin: 0 2%;
     }
 
     .container-info{
