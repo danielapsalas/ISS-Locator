@@ -1,1 +1,0 @@
-const mapBoxKey = `pk.eyJ1IjoiZGFuaWVsYXBzYWxhcyIsImEiOiJjbGtpZjRhYW4waHh6M2RwNDczODZqajUwIn0.UlvkfvlcF3JOXJVVx3k1Og`;
