@@ -6,7 +6,7 @@ function updateCoordinates() {
         .then((json) => {
             let long = json.longitude;
             let lat = json.latitude;
-            $(".coordinates").text("The coordinates are: latitude "  + lat + " and longitude " + long);
+            $(".coordinates").text("The location can be found at latitude "  + lat.toFixed(6) + " and longitude " + long.toFixed(6));
             console.log(json)
 
             mapbox(long, lat);
