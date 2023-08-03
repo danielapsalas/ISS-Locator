@@ -1,3 +1,4 @@
+console.log("Hello!")
 //ISS API
 updateCoordinates()
 function updateCoordinates() {
@@ -7,14 +8,13 @@ function updateCoordinates() {
             let long = json.longitude;
             let lat = json.latitude;
             $(".coordinates").text("The location can be found at latitude "  + lat.toFixed(6) + " and longitude " + long.toFixed(6));
-            console.log("Hello!")
 
             mapbox(long, lat);
 
         })
         .catch((error) => {
             $("#map").addClass(".error-image");
-            console.log(error)
+            // console.log(error)
         });
 }
 
